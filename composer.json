@@ -1,0 +1,21 @@
+{
+  "autoload": {
+    "psr-0": {
+      "Cielo": "src"
+    }
+  },
+  "name": "leonardoEbert/cielo-3.0-sdk-antifraude",
+  "description": "Implementação com antifraude da integração com a API da Cielo",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.6",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "psr/log":"^1.1"
+  },
+  "suggest": {
+    "monolog/monolog": "Allows more advanced logging of the application flow"
+  },
+  "homepage": "https://github.com/leonardoEbert/cielo-3.0-sdk-antifraude"
+}
